@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/calculator-app-using-typescript-react-and-tailwindcss-pvVkfLsLGM](https://www.frontendmentor.io/solutions/calculator-app-using-typescript-react-and-tailwindcss-pvVkfLsLGM)
 - Live Site URL: [https://frontend-mentor-calculator-app-rouge.vercel.app/](https://frontend-mentor-calculator-app-rouge.vercel.app/)
 - All Solutions URL: [https://frontend-mentor-solutions-mu.vercel.app/](https://frontend-mentor-solutions-mu.vercel.app/)
 
