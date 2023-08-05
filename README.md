@@ -37,9 +37,9 @@ Users should be able to:
   <img src="./design/desktop-design-theme-3.jpg" width="49%" alt="desktop-design-theme-3" />
   <img src="./design/active-states-theme-3.jpg" width="49%" alt="desktop-design-theme-3" /> 
 
-  <img src="./design/mobile-design-theme-1.jpg" width="33%" alt="mobile-design-theme-1" />
-  <img src="./design/mobile-design-theme-2.jpg" width="33%" alt="mobile-design-theme-2" />
-  <img src="./design/mobile-design-theme-3.jpg" width="33%" alt="mobile-design-theme-3" />
+  <img src="./design/mobile-design-theme-1.jpg" width="32%" alt="mobile-design-theme-1" />
+  <img src="./design/mobile-design-theme-2.jpg" width="32%" alt="mobile-design-theme-2" />
+  <img src="./design/mobile-design-theme-3.jpg" width="32%" alt="mobile-design-theme-3" />
 </div>
 
 ### Links
