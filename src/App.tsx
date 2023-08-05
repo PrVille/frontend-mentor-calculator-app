@@ -5,10 +5,6 @@ import Keypad from "./components/Keypad"
 import Screen from "./components/Screen"
 import useTheme from "./hooks/useTheme"
 
-// Local storage theme
-// !Allow multiple commas
-
-
 const App = () => {
   const { activeColors } = useTheme()
   const [operation, setOperation] = useState<string | null>(null)
@@ -23,6 +19,7 @@ const App = () => {
           setOperating(false)
           return newValue === "," ? "0" + newValue : newValue
         }
+        if (newValue === "," && prevValue.includes(",")) return prevValue
         if (prevValue === "0" && newValue === "0") return "0"
         if (prevValue === "0" && newValue !== ",") return newValue
         return prevValue + newValue
@@ -31,6 +28,7 @@ const App = () => {
   }
 
   const removeLastScreenValue = () => {
+    setOperating(false)
     setValue((prevValue) =>
       prevValue.length === 1 ? "0" : prevValue.slice(0, -1)
     )
@@ -83,7 +81,7 @@ const App = () => {
   return (
     <>
       <main
-        className={`${activeColors.backgrounds.main} h-screen flex flex-col justify-center items-center font-leagueSpartan p-8`}
+        className={`${activeColors.backgrounds.main} min-h-screen flex flex-col justify-center items-center font-leagueSpartan p-8`}
       >
         <div className="flex flex-col gap-6 items-center max-w-[540px] w-full">
           <Header />

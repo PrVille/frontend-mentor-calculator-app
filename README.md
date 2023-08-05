@@ -61,7 +61,9 @@ Users should be able to:
 
 ### Useful resources
 
-- []()
+- [Number.prototype.toFixed()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+- [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+- [Window: localStorage property](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
  
 ## Acknowledgements
 
